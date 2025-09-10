@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 import globalStyles from "./styles/GlobalStyles";
-function App(){
+const App = () => {
   return (
     <View style={globalStyles.estiloContenedor}>
       <Text style={globalStyles.estiloTexto}>Hola</Text>
