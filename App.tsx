@@ -1,6 +1,5 @@
 import { StyleSheet, Text, View } from "react-native";
-
-export default function App(){
+function App(){
   return (
     <View style={styles.estiloContenedor}>
       <Text style={styles.estiloTexto}>Hola</Text>
@@ -8,7 +7,6 @@ export default function App(){
     </View>
   )
 }
-
 const styles = StyleSheet.create({
   estiloContenedor: {
     marginTop:300,
@@ -18,3 +16,4 @@ const styles = StyleSheet.create({
     fontSize:30    
   }
 })
+export default App
